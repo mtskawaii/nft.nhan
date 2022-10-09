@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <div class="logo"></div>
+    <div class="borda"></div>
+    <div class="rodape"></div>
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+        
+        * {
+            background-color: hsl(217, 54%, 11%);
+        }
+        
+        .logo {
+            position: absolute;
+            width: 41px;
+            height: 41px;
+            background-color: white;
+            border-radius: 20pt;
+            top: 510px;
+            left: 530px;
+        }
+        
+        .borda {
+            width: 340px;
+            height: 500px;
+            background-color: hsl(216, 50%, 16%);
+            display: block;
+            margin: auto;
+            margin-top: 60px;
+            border-radius: 5pt;
+            box-shadow: 10px 0px 30px rgba(0, 0, 0, .5);
+        }
+        
+        .rodape {
+            position: absolute;
+            height: 0.5px;
+            width: 230px;
+            background-color: hsl(178, 100%, 50%);
+            left: 570px;
+            top: 500px;
+        }
+        
+        .equili {
+            position: absolute;
+            width: 300px;
+            height: 280px;
+            top: 75px;
+            left: 535px;
+            border-radius: 5pt;
+        }
+        
+        .avatar {
+            position: absolute;
+            width: 37px;
+            height: 37px;
+            left: 532px;
+            top: 512px;
+            border-radius: 15pt;
+        }
+        
+        .h1 {
+            position: absolute;
+            font-family: 'Outfit', sans-serif;
+            font-size: 20pt;
+            color: white;
+            left: 535px;
+            top: 340px;
+            background-color: hsl(216, 50%, 16%);
+        }
+        
+        .h2 {
+            position: absolute;
+            font-family: 'Outfit', sans-serif;
+            font-size: 13pt;
+            color: hsl(215, 32%, 27%);
+            left: 540px;
+            top: 386px;
+            background-color: hsl(216, 50%, 16%);
+        }
+        
+        .p1 {
+            position: absolute;
+            font-family: 'Outfit', sans-serif;
+            font-size: 11pt;
+            left: 585px;
+            top: 504px;
+            color: hsl(215, 32%, 27%);
+            background-color: hsl(216, 50%, 16%);
+        }
+        
+        .p2 {
+            position: absolute;
+            font-family: 'Outfit', sans-serif;
+            font-size: 11pt;
+            left: 665px;
+            top: 504px;
+            color: white;
+            background-color: hsl(216, 50%, 16%);
+        }
+        
+        .cp1 {
+            position: absolute;
+            width: 37px;
+            height: 37px;
+            left: 540px;
+            top: 460px;
+            background-color: hsl(216, 50%, 16%);
+        }
+        
+        .cripto {
+            position: absolute;
+            font-family: 'Outfit', sans-serif;
+            font-size: 11pt;
+            left: 580px;
+            top: 445px;
+            color: white;
+            background-color: hsl(216, 50%, 16%);
+        }
+        
+        .cp2 {
+            position: absolute;
+            width: 37px;
+            height: 37px;
+            left: 733px;
+            top: 460px;
+            background-color: hsl(216, 50%, 16%);
+        }
+        
+        .relogio {
+            position: absolute;
+            font-family: 'Outfit', sans-serif;
+            font-size: 11pt;
+            left: 770px;
+            top: 445px;
+            color: white;
+            background-color: hsl(216, 50%, 16%);
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div>
+        <img class="avatar" src="\images\image-avatar.png" alt="avatar">
+
+        <img class="equili" src="\images\image-equilibrium.jpg" alt="equili">
+    </div>
+
+    <hgroup>
+        <h1 class="h1">Equilibrium #3429</h1>
+        <h2 class="h2">Our Equilibrium collection promotes<br> balance and calm.</h2>
+    </hgroup>
+
+    <p class="p1">Creation of </p>
+    <p class="p2">Jules Wyvern</p>
+
+    <div>
+        <p class="cripto">0.041 ETH</p>
+        <svg class="cp1" width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>
+    </div>
+    <div>
+        <p class="relogio">3 days left</p>
+        <svg class="cp2" width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
+    </div>
+
+</body>
+
+</html>
